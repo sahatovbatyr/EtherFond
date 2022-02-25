@@ -85,6 +85,8 @@ contract EtherFond {
         balances[msg.sender]-=amount;
         balances[recipient]+=amount;
 
+         uint a=1;
+
 
         
     }
