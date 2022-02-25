@@ -83,12 +83,7 @@ contract EtherFond {
         require(msg.sender!=recipient, "Sending yourself! Check it!");
         require( balances[msg.sender]>=amount, "Not enough token!");
         balances[msg.sender]-=amount;
-        balances[recipient]+=amount;
-
-         uint a=1;
-
-
-        
+        balances[recipient]+=amount;  
     }
 
     
